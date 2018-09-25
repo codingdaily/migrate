@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/golang-migrate/migrate/v3/source"
+	"github.com/codingdaily/migrate/source"
 )
 
 func init() {

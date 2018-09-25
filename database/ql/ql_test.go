@@ -9,9 +9,9 @@ import (
 	"testing"
 
 	_ "github.com/cznic/ql/driver"
-	"github.com/golang-migrate/migrate/v3"
-	dt "github.com/golang-migrate/migrate/v3/database/testing"
-	_ "github.com/golang-migrate/migrate/v3/source/file"
+	"github.com/codingdaily/migrate"
+	dt "github.com/codingdaily/migrate/database/testing"
+	_ "github.com/codingdaily/migrate/source/file"
 )
 
 func Test(t *testing.T) {
